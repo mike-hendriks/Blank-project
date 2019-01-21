@@ -1,0 +1,49 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "description": "A working directory containing all the essential files and functions to get started with your new project.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike-hendriks/Blank-project.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "JS",
+    "JavaScript",
+    "Compile",
+    "GULP",
+    "Minify"
+  ],
+  "author": "Mike Hendriks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mike-hendriks/Blank-project/issues"
+  },
+  "homepage": "https://github.com/mike-hendriks/Blank-project#readme",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "babel": "^6.23.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.3",
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cache": "^1.1.0",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-options": "^1.1.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-uglify": "^3.0.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
