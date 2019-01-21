@@ -1,5 +1,12 @@
 # Blank-project
-A directory containing all the essential files for creating a basic webpage - including SCSS and JS compiling and browsersync
+Website creation setup for SCSS & Javascript ES6 compiling.
+
+# Description
+A directory containing all the essential files for creating a basic webpage.
+Including: 
+* SCSS compiling
+* JS compiling (ES6)
+* Browser-sync
 
 ## Installation
 Install all depedencies by running:
