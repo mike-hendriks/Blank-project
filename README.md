@@ -1,7 +1,7 @@
 # Blank-project
 Website creation setup for SCSS & Javascript ES6 compiling.
 
-# Description
+## Description
 A directory containing all the essential files for creating a basic webpage.
 Including: 
 * SCSS compiling
