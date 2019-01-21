@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="./public/css/style.min.css">
   </head>
   <body>
-  
-    <h1>You're all set, now create something great!</h1>
+    <main>
+      <div class="flex-center">
+        <h1>You're all set, now create something great!</h1>
+      </div>
+    </main>
 
     <script src="./public/js/main.min.js"></script>
   </body>
