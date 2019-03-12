@@ -11,5 +11,5 @@ Including:
 ## Installation
 Install all depedencies by running:
 ```bash
-npm install gulp gulp-sass gulp-autoprefixer gulp-uglify babelify browserify vinyl-source-stream vinyl-buffer gulp-strip-debug gulp-rename gulp-sourcemaps gulp-notify gulp-options gulp-if gulp-cache browser-sync @babel/core @babel/preset-env
+npm install gulp gulp-sass gulp-autoprefixer gulp-uglify babelify browserify vinyl-source-stream vinyl-buffer gulp-strip-debug gulp-rename gulp-sourcemaps gulp-notify gulp-options gulp-if gulp-cache browser-sync @babel/core @babel/preset-env -g
 ```
