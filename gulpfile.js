@@ -37,7 +37,8 @@ var jsURL        = './public/js/';
 
 var styleWatch   = './src/scss/**/*.scss';
 var jsWatch      = './src/js/**/*.js';
-var htmlWatch    = './src/**/*.html';
+var htmlWatch    = './**/*.html';
+var phpWatch    = './**/*.php';
 
 // Tasks
 function browser_sync() {
@@ -106,6 +107,8 @@ function js(done) {
 function watch_files() {
 	watch(styleWatch, series(css, reload));
 	watch(jsWatch, series(js, reload));
+	watch(htmlWatch, series(reload));
+	watch(phpWatch, series(reload));
 	src(jsURL + 'main.min.js')
 		.pipe( notify({ message: 'Gulp is Watching, Happy Coding!' }) );
 }
